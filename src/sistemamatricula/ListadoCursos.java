@@ -13,7 +13,7 @@ public class ListadoCursos {
         cur = new ArrayList<Curso>();
         cantCursos = 0;
     }
-    
+                                                                                
     public void setCursos(){
         do{
             System.out.print("Cantidad de cursos a ingresar: ");
@@ -30,10 +30,10 @@ public class ListadoCursos {
             //C[i].ingresarDatos();
             it.setCodigo(cadena.substring(cadena.length()-3,cadena.length()));
             it.ingresarDatos();
-            cur.add(it);
+            cur.add(it);            
         }
     }
-    
+
     public void mostrarCursos(){
         if(cantCursos > 0){
             System.out.println("Lista de cursos registrados");

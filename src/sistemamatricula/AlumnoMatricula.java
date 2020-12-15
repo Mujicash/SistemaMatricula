@@ -21,10 +21,6 @@ public class AlumnoMatricula {
         return A;
     }
     
-    public void setCantCurso(int cantCurso){
-        this.cantCurso = cantCurso;
-    }
-    
     public int getCantCurso(){
         return cantCurso;
     }

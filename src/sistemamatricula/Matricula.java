@@ -96,9 +96,8 @@ public class Matricula {
                 Alumno alumno = i.getALumno();
                 System.out.println("\n----------ALUMNO---------");
                 System.out.println("-Codigo: " + alumno.getCodigo());
-                System.out.println("-Nombres: " + alumno.getNombre());
-                System.out.println("-Apellidos: " + alumno.getApellido());
-                System.out.println("---CURSOS MATRICULADOS---");                
+                System.out.println("-Nombres: " + alumno.getNombre() + " " + alumno.getApellido());
+                System.out.println("----CURSOS MATRICULADOS----");                
                 
                 for(int j=0; j< i.getCantCurso(); j++){
                     Curso curso = i.getCurso(j);
